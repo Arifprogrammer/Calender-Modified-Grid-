@@ -28,10 +28,33 @@
         grid-template-columns: repeat(7, 1fr);
         padding: 0px;
         grid-gap: 4px;
+
+ /* -------------Practicing Grid Area----------------------
+        grid-template-areas: 
+                "c1-i1 c2-i1 c3-i1 c4-i1 c5-i2 c6-i1 c7-i1"
+                "c1-i2 c2-i2 c3-i2 c4-i2 c5-i2 c6-i2 c7-i2"; */
     }
+/* --------------Practicing Grid Area----------------------
+    .c1-i1{grid-area: c1-i1;}
+    .c2-i1{grid-area: c2-i1;}
+    .c3-i1{grid-area: c3-i1;}
+    .c4-i1{grid-area: c4-i1;}
+    .c5-i1{grid-area: c5-i1;}
+    .c6-i1{grid-area: c6-i1;}
+    .c7-i1{grid-area: c7-i1;}
+    .c1-i2{grid-area: c1-i2;}
+    .c2-i2{grid-area: c2-i2;}
+    .c3-i2{grid-area: c3-i2;}
+    .c4-i2{grid-area: c4-i2;}
+    .c5-i2{grid-area: c5-i2;}
+    .c6-i2{grid-area: c6-i2;}
+    .c7-i2{grid-area: c7-i2;}
+    .second>ul>.c2-i1, .second>ul>.c5-i1, second>ul>.c4-i1{
+        display: none;
+    } */
     .first>ul>li{
         list-style: none;
-        padding: 0px 10px;
+        padding: 0px 0px 0px 10px;
         font-size: 30px;
         font-weight: 800;
         color: rgb(27, 25, 25);
@@ -72,20 +95,21 @@
             </div>
             <div class="second">
                 <ul>
-                    <li>28</li>
-                    <li>29</li>
-                    <li>30</li>
-                    <li>1</li>
-                    <li>2</li>
-                    <li>3</li>
-                    <li>4</li>
-                    <li>5</li>
-                    <li>6</li>
-                    <li>7</li>
-                    <li>8</li>
-                    <li>9</li>
-                    <li>10</li>
-                    <li>11</li>
+<!-- ----------------------below li's classes are used for practicing grid area which is commented-out avobe-----------------------  -->
+                    <li class="c1-i1">28</li>
+                    <li class="c2-i1">29</li>
+                    <li class="c3-i1">30</li>
+                    <li class="c4-i1">1</li>
+                    <li class="c5-i1">2</li>
+                    <li class="c6-i1">3</li>
+                    <li class="c7-i1">4</li>
+                    <li class="c1-i2">5</li>
+                    <li class="c2-i2">6</li>
+                    <li class="c3-i2">7</li>
+                    <li class="c4-i2">8</li>
+                    <li class="c5-i2">9</li>
+                    <li class="c6-i2">10</li>
+                    <li class="c7-i2">11</li>
                     <li>12</li>
                     <li>13</li>
                     <li>14</li>
